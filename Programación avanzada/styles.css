@@ -1,0 +1,33 @@
+.div{
+    width: 100%;
+    height: 50%;
+}
+
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 10%;
+  margin: 2% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  width: 50%;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.form button {
+  padding: 0.5em 1em;
+  border: 1cm;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.enviar:hover{
+    background: black;
+    color: aliceblue;
+}
